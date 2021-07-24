@@ -1,0 +1,27 @@
+{
+  "name": "goog2esm",
+  "version": "1.0.0",
+  "description": "A way to transform goog module to esm by ast.",
+  "license": "MIT",
+  "author": "yhx9527",
+  "repository": "https://github.com/yhx9527/goog2esm",
+  "homepage": "https://github.com/yhx9527/goog2esm",
+  "bugs": "https://github.com/yhx9527/goog2esm/issues",
+  "main": "index.js",
+  "bin": {
+    "goog2esm": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jscodeshift": "^0.11.0",
+    "camelcase": "^6.2.0",
+    "reserved-words": "^0.1.2",
+    "shelljs": "^0.8.4"
+  },
+  "keywords": [
+    "goog",
+    "esm"
+  ]
+}

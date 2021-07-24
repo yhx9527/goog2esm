@@ -1,0 +1,7 @@
+# Mac OS
+.DS_Store
+
+# NPM
+/node_modules
+
+/dist
